@@ -60,7 +60,10 @@ header ul li.selected {
 }
 /*侧栏*/
 .sidebar{  
+	margin: 20px auto 0;
     float: right; 
     width: 900px;  
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #828282;
     background: #ccc;  
 }  
