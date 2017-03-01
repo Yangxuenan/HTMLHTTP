@@ -1,0 +1,47 @@
+	*{
+		box-sizing: border-box;
+	}
+	#wapper{
+		background-color: #eee;
+		overflow: hidden;
+	}
+	#wapper>div{
+		background-color: #fff;
+	}
+	#left{
+		float: left;
+		width: 200px;
+	}
+	#left>img{
+		float: left;
+		width: 80px;
+		height: 80px;		
+		border: 1px solid #999;
+	}
+	#auto{		
+		margin-left: 220px;
+		margin-right: 140px;
+		width: auto;	
+	}
+	#right{
+		float: right;
+		width: 120px;
+	}
+	#right>.clearMarginTop{		
+		margin-top: 0px;		
+	}
+	#right>img{
+		width: 80px;
+		height: 80px;
+		margin-top: 20px;
+		border: 1px solid #999;
+		
+	}
+	
+	div{
+		border: 1px solid #999;
+		padding: 20px;		
+	}
+	span{
+		padding:20px;
+	}
