@@ -1,0 +1,38 @@
+/*初始化*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*灰色部分*/
+.box {
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	background-color: #CCC;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	z-index: 1;/*设置定位  叠加哪个在上哪个在下*/
+}
+
+.box-bottom {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	border-radius: 50px 0 0 0;
+	bottom: 0px;
+	right: 0px;
+	z-index: 2;
+}
+
+.box-top {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #FFCC00;
+	border-radius: 0 0 50px 0;
+	z-index: 3;
+}
