@@ -201,6 +201,59 @@ body {
 .lastArticle {
 	margin-top: 30px;
 }
+
+.leftArticle {
+	width: 400px;
+	height: 475px;
+	float: left;
+}
+.leftArticle #header {
+	padding-bottom: 10px;
+    border-bottom: solid #11456b 2px;
+}
+.leftArticle #header h1 {
+	font-family: 黑体;
+    font-size: 42px;
+    color: #11456b;
+    line-height: 46px;
+    font-weight: bold;
+}
+.leftArticle #header h1 span {
+	font-size: 72px;
+    color: #f5e327;
+    font-style: italic;
+}
+.leftArticle #header h2 {
+	font-family: 黑体;
+    font-size: 33px;
+    color: #11456b;
+    font-weight: bold;
+}
+.leftArticle #body {
+	padding-top: 20px;
+}
+.leftArticle #body p {
+	font-family: 宋体;
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+}
+.leftArticle #body span {
+	display: inline-block;
+    margin-right: 10px;
+    font-family: 微软雅黑;
+    font-size: 70px;
+    color: #f5e327;
+    float: left;
+}
+.leftArticle #body img {
+	width: 150px;
+	height: 300px;
+	float: right;
+    margin: 20px 0px 20px 20px;
+}
+
+
 .rightArticle {
 	width: 458px;
 	height: 475px;
@@ -327,4 +380,13 @@ body {
 	font-size: 40px;
 	color: #d45d5c;
 	font-family: "黑体";
+}
+
+#foot{
+    margin-top: 720px;
+    border-top: solid #938e8c 1px;
+    text-align: right;
+    font-family: 黑体;
+    font-size: 12px;
+    color: #d45d5c;
 }
