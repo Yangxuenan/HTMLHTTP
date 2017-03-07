@@ -370,19 +370,28 @@ body {
 	float: right;
 }
 .rightBox p {
+	
+	display: inline-block;
 	font-size: 14px;
 	color: #5a5b5b;
 	font-family: "黑体";
-	
-	
 }
 .rightBox span {
-	font-size: 40px;
+	display: inline-block;
+	font-size: 72px;
 	color: #d45d5c;
 	font-family: "黑体";
+	margin-top: -20px;
 }
+/*.rightBox #sp1{
+	margin-right: -500px;
+}
+.rightBox #sp2 {
+	margin-bottom: 10px;
+}*/
 
 #foot{
+	
     margin-top: 720px;
     border-top: solid #938e8c 1px;
     text-align: right;
