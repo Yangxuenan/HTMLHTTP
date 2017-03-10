@@ -1,0 +1,501 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+/*顶部标题部分*/
+.header {
+	width: 98%;
+	height: 60px;
+	margin: auto;
+}
+
+.header-left {
+	margin-left: 5%;
+	float: left;
+}
+.header-left img {
+	margin-top: 10px;
+}
+.header-left span {
+	font-size: 20px;
+	font-family: "黑体";
+}
+.header-right {
+	margin-right: 5%;
+	float: right;
+	padding-top: 15px;
+}
+.header-right a{
+	text-decoration: none;
+	font-size: 15px;
+	font-family:"微软雅黑";
+	color: #666;
+	padding-right: 15px;
+	padding-bottom: 18px;
+	
+}
+.header-right a:hover {
+	font-family:"微软雅黑";
+	color: #f03;
+	border-bottom: solid #FF0033;
+}
+
+/*第一部分：开始体验*/
+.section-startExperience {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background: url("../img/bd1.jpg") no-repeat;
+	margin: auto;
+}
+
+.section-startExperience #se-content {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	margin-top: 20%;
+	margin-left: 10%;
+}
+.section-startExperience #se-content p{
+	color: white;
+	font-size: 25px;
+	font-family: "黑体";
+}
+.section-startExperience #se-content #p1 {
+	font-size: 60px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+.section-startExperience button {
+	color: white;
+	font-size: 35px;
+	width: 30%;
+	height: 10%;
+	background-color: #FF0033;
+	margin-top: 35%;
+	margin-left: 10%;
+	border: hidden;
+}
+
+/*第二部分，四个小模块*/
+.section-fourPic {
+	width: 100%;
+}
+.section-fourPic ul{
+	width: 100%;
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-around;/*默认水平主轴方向，水平两端对齐*/
+}
+.section-fourPic li{
+	width: 25%;
+	height: 150px;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;/*规定主轴方向*/
+}
+.section-fourPic li img {
+	width: 50px;
+	height: 50px;
+}
+
+.section-fourPic li p{
+	width: 45%;
+	padding: 0 27.5%;/*让P居中*/
+	border-right: 1px solid #939393;
+}
+.section-fourPic li:last-child p {
+	border-right: none;
+}
+
+/*关于新世界，你不知道的还有什么？*/
+.section-newWorld {
+	width: 100%;
+	height: 300px;
+	background-color: gainsboro;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size:60px;
+	color: grey;
+}
+.section-newWorld p {
+	margin-top: 30px;
+}
+
+/*搜索城市部分*/
+.section-findMessage {
+	background: url("../img/bd2.jpg") no-repeat;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-around;
+}
+.section-findMessage p {
+	font-size: 10px;
+	color: white;
+	font-family: "微软雅黑";
+	margin: 20px 0;
+}
+.section-findMessage #line {
+	width: 30px;
+	height: 3px;
+	background-color: #666666;
+	margin: auto;
+}
+
+.section-findMessage h2{
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: white;
+	font-family: "微软雅黑";
+}
+
+.section-findMessage #opSection{
+	width: 80%;
+	margin-left: 10%;
+}
+.section-findMessage #opSection select{
+	width: 20%;
+	height: 30px;
+	color: grey;
+	
+}
+.section-findMessage #opSection button{
+	width: 20%;
+	height: 30px;
+	background-color: cornflowerblue;
+}
+
+/*上海活动部分*/
+.section-activity {
+	width: 100%;
+	height: 500px;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-around;
+}
+
+.section-activity ul{
+	width: 100%;
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-around;/*默认水平主轴方向，水平两端对齐*/
+}
+.section-activity li{
+	width: 25%;
+	height: 150px;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;/*规定主轴方向*/
+}
+.section-activity li p{
+	color: darkgrey;
+	font-size: 12px;
+}
+.section-activity li h3{
+	margin-bottom: 3px;
+}
+.section-activity #shanghai h3{
+	font-size: 25px;
+	letter-spacing: 20px;
+}
+
+/*新世界Time部分*/
+.section-Time {
+	width: 100%;
+	height: 500px;
+	
+}
+.section-Time #leftSection {
+	background: url("../img/bd4.jpg") no-repeat;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.section-Time #leftSection #p1{
+	font-size: 50px;
+	color: white;
+	font-family: "黑体";
+}
+.section-Time #leftSection #p2{
+	font-size: 150px;
+	color: white;
+	font-family: "微软雅黑";
+}
+.section-Time #leftSection #p3{
+	font-size: 20px;
+	color: white;
+	font-family: "黑体";
+}
+.section-Time #leftSection #p4{
+	font-size: 20px;
+	color: white;
+	font-family: "黑体";
+}
+ .section-Time #rightSection{
+ 	width: 40%;
+ 	height: 100%;
+ 	float: right;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+.section-Time #rightSection #content{
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	margin-top: 30%;
+}
+.section-Time #rightSection #content h3{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.section-Time #rightSection span{
+	color: red;
+}
+.section-Time #rightSection p{
+	font-size: 12px;
+	color: darkgrey;
+	line-height: 30px;
+}
+.section-Time #rightSection button{
+	width: 100px;
+	height: 40px;
+	border: 1px #f33 solid;
+	color: #f33;
+	background-color: white;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+
+/*新时代部分*/
+.section-newAge{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	position: relative;
+}
+.section-newAge #redArea,.section-newAge #whiteArea{
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.section-newAge #redArea{
+	background-color: #f33;
+	color: white;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	line-height: 30px;
+}
+.section-newAge #line{
+	width: 50px;
+	height: 3px;
+	background-color: white;
+	margin: 20px auto;
+}
+.section-newAge #redArea button {
+	width: 150px;
+	height: 40px;
+	border: 1px white solid;
+	color: white;
+	background-color: #f33;
+	margin: 20px auto;
+}
+.section-newAge #whiteArea{
+	color: black;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	line-height: 30px;
+}
+.section-newAge #line1{
+	width: 50px;
+	height: 3px;
+	background-color: grey;
+	margin: 20px auto;
+}
+.section-newAge #whiteArea button {
+	width: 150px;
+	height: 40px;
+	border: 1px #f33 solid;
+	color: #f33;
+	background-color: white;
+	margin: 20px auto;
+}
+
+/*志愿者活动部分*/
+.section-volunteer {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.section-volunteer p{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: darkgrey;
+}
+.section-volunteer #line{
+	width: 30px;
+	height: 3px;
+	background-color: red;
+	margin: 10px auto;
+}
+.section-volunteer #p1{
+	font-size: 21px;
+	font-family: "微软雅黑";
+	color: black;
+}
+
+.section-volunTable {
+	width:80%;
+	height: 500px;
+	margin: auto;
+}
+.leftTable{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding-right: 10%;
+	
+}
+.leftTable h3{
+	font-size: 15px;
+	font-family: "宋体";
+	margin-bottom: 30px;
+}
+.leftTable p{
+	font-size: 12px;
+	color: darkgrey;
+}
+.leftTable a{
+	text-decoration: none;
+	color: darkgrey;
+	margin-left: 88%;
+}
+.leftTable #article1,.leftTable #article2,.leftTable #article3{
+	margin-bottom: 20px;
+}
+
+.rightTable {
+	width: 60%;
+	height: 100%;
+	float: right;
+}
+.rightTable input{
+	width: 45%;
+	height: 35px;
+	background-color: whitesmoke;
+	color: black;
+	border: hidden;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.rightTable textarea{
+	width: 92%;
+	height: 100px;
+	background-color: whitesmoke;
+	border: hidden;
+	margin-bottom: 10px;
+}
+.rightTable button{
+	width: 92%;
+	height: 35px;
+	background-color: whitesmoke;
+	border: hidden;
+	margin-bottom: 10px;
+}
+
+/*联系我们部分*/
+.section-connectUs{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #32353e;
+}
+.section-connectUs h1,p{
+	color: white;
+	text-align: center;
+}
+.section-connectUs h1{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.section-connectUs p{
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.submit {
+	width: 80%;
+	height: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: 10%;
+}
+.section-connectUs #input1 {
+	width: 30%;
+	height: 30px;
+}
+
+.section-connectUs button {
+	width: 10%;
+	height: 30px;
+}
+
+.section-connectUs img{
+	width: 15%;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 40%;
+}
+
+/*最后*/
+.section-last{
+	background-color: #2f2f38;
+	width: 100%;
+	height: 50px;
+	font-size: 12px;
+	color: white;
+}
+.section-last span{
+	float: left;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+.section-last a{
+	float: right;
+	font-size: 12px;
+	color: white;
+	margin-right: 5%;
+	margin-top: 20px;
+	text-decoration: none;
+}
